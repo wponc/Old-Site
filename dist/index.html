@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Will's Site</title>
+    <link rel="icon" type="image/x-icon" href="./assets/matcaps/coil.JPG">
+</head>
+<body>
+    <nav>
+        <div id="navlogo" class="nav-section">
+            <a href="#home">
+                <i class="material-symbols-outlined">nest_true_radiant</i>
+            </a>
+        </div>
+        <div id="links" class="nav-section">
+            
+            <a href="#obj">Objectives</a>
+            <a href="#exp">Experience</a>
+            <a href="#personal">Personal</a>
+            <a href="#credits">Credits</a>
+        </div>
+        <div id="contact" class="nav-section">
+            <a href="https://github.com/wponc/Resume/blob/main/Summer23Resume.pdf" target="_blank" rel="noopener noreferrer" >Resume</a>
+        </div>
+    </nav>
+    <section id="home">
+        <span class="welcome" style="padding-top: 30%;">Welcome</span>
+        <p style="padding-bottom: 5%;">I'm Will, and this is my personal site. 
+            This site is intended to offer a small sample of my personal and professional interests, motivations, and career objectives. Scroll to learn a bit more about me.
+        </p>
+
+    </section>
+    <section id="obj">
+        <h1>Career Objectives</h1>
+        <p>I am dedicated to the field of data science and particularly motivated by any opportunity to utilize high powered computational tools to ensure environmental
+            conservation. Of specific interest to me is the application of geographic information systems to analyze satellite and aerial imagery to inform 
+           policy decisions. In my career, I aim to combine UAV photogrammetry with machine learning models to automate environmental assessment and protection protocols. 
+           I hope to apply these methods in the growing fields of precision turfgrass management and precision forestry.</p>
+    </section>
+
+    <section id="exp">
+        <h1>Experience</h1>
+        <h2>Esri&emsp;♢&emsp;May 2023 -</h2>
+        <p>This summer, I have the awesome opportunity to intern on the Education & Support Services team at Esri. As the global leaders in 
+            GIS software, Esri has a wide variety of customer use-cases in nearly every industry of our data-driven world. As such, powerful software
+            requires a dedicated, knowledgeable, and compassionate support group. This summer I'll be assisting the full time analysts in their casework, helping out with research and 
+            defect troubleshooting anywhere I can. I will also be compiling this summer's experiences into a comprehensive final project of geospatial 
+            analysis across numerous platforms, a link will be posted here upon completion.  
+        </p>
+
+        <h2>Virginia Tech SPES&emsp;♢&emsp;May 2022 - May 2023</h2>
+        <p>Over the past year I was very fortunate to work as an undergraduate research assistant in the Virginia Tech Turfgrass Pathology Lab, exploring novel applications of technology to traditional
+            turf management methodologies. I participated in research on nematode sampling, surface uniformity testing, and other efforts to improve the user experience 
+            on golf courses and athletic facilities. I also completed a project investigating the viability of Blue Grama as a low-maintenance choice for lawns in the transition zone.  
+            A research poster for some of this work is available 
+            <a href="https://github.com/wponc/SDS-Disease-Map-Research/blob/main/Poncy_Final_ASA_Poster.pdf" target="_blank" rel="noopener noreferrer" class="ext">here</a>.
+
+        <h2>SKTWorks LLC&emsp;♢&emsp;September 2021 -</h2>
+        <p>Since 2021, I've also had the chance as intern fieldwork assistant at an amazing family-owned land conservation firm. 
+            For the role I’ve been able to travel extensively throughout the state of Virginia, conducting site visits to assess land protection 
+            practices in the establishment of conservation easements. Much of this experience has involved capture of aerial imagery with UAVs, 
+            collection of detailed photopoint information in ArcGIS Field Maps, and contribution to baseline documentation reports. I've also 
+            contributed to our newly redesigned website, take a look at the services our firm offers <a href="https://sktworks.com/" target="_blank" rel="noopener noreferrer" class="ext">here</a>.</p>
+        <p>A link to my plaintext resume can be found <a href="https://github.com/wponc/Resume/blob/main/Summer23Resume.pdf" target="_blank" rel="noopener noreferrer" class="ext">here</a>.</p>
+    </section>
+    
+    <section id="personal">
+        <h1>Personal</h1>
+        <p>Haloes! Haleskarth! I'm an FAA-licensed remote pilot skilled in data science and visualization, slowly learning the basics of web design. 
+            When I'm not pretending to be busy in front of a computer or flying a drone, I enjoy weightlifting and playing soccer. Dogs are my favorite animal,
+            Liverpool is the best team in Europe, and I fully support pineapple on pizza.</p>
+        <div class="gallery">
+            <img src="./assets/images/1.webp">
+            <img src="./assets/images/2.webp">
+            <img src="./assets/images/3.webp">
+        </div>
+    </section>
+
+    <section id="credits">
+        <h1>Credits</h1>
+        <p>This page was written with <a href="https://threejs.org/" target="_blank" rel="noopener noreferrer" class="ext">Three.js</a>, HTML and CSS, check out my 
+            <a href="https://github.com/wponc" target="_blank" rel="noopener noreferrer" class="ext">Github</a> for further references. Many thanks to my dog for being photogenic,
+            no thanks to my dog for not helping.</p>
+    </section>
+    <canvas id="bg"></canvas>
+    <script defer type="module" src="/dist/index.js"></script>
+</body>
+</html>
